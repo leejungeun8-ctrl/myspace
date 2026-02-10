@@ -11,8 +11,8 @@ import {
   doc, 
   serverTimestamp 
 } from 'firebase/firestore';
-import { auth, db } from '../firebase';
-import { useAuth } from '../context/AuthContext';
+import { auth, db } from '../firebase.ts';
+import { useAuth } from '../context/AuthContext.tsx';
 import { GoogleGenAI, Type } from "@google/genai";
 import ReactQuill from 'react-quill-new';
 
