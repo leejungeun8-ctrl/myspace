@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Auth Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Quill Snow Theme CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Quill Editor Custom Styles */
+      .ql-container {
+        font-family: 'Inter', sans-serif !important;
+        font-size: 1.125rem !important;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+      }
+      .ql-toolbar {
+        border-top-left-radius: 0.5rem !important;
+        border-top-right-radius: 0.5rem !important;
+        border-color: #f3f4f6 !important;
+        background-color: #f9fafb;
+      }
+      .ql-editor.ql-blank::before {
+        color: #9ca3af !important;
+        font-style: normal !important;
+      }
+      .ql-editor {
+        min-height: 150px;
+      }
+      /* Content Display Styles */
+      .post-content h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+      .post-content h2 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.4rem; }
+      .post-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+      .post-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1rem; }
+      .post-content blockquote { border-left: 4px solid #e5e7eb; padding-left: 1rem; color: #4b5563; font-style: italic; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "firebase/": "https://esm.sh/firebase@^12.9.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react-quill-new": "https://esm.sh/react-quill-new@^3.3.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900">
+    <div id="root"></div>
+  </body>
+</html>
